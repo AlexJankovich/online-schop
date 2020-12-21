@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import './App.css';
 import {Preloader} from './Common/Preloader';
 import {Div} from './Common/Styled';
 import {Filter} from './components/Filter';
